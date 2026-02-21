@@ -12,7 +12,10 @@ function CountOccurences(arr) {
             duplicatArr.apple = duplicatArr.apple + 1
         }
         else if (arr[i] == "banana"){
-            duplicatArr.banana = duplicatArr.
+            duplicatArr.banana = duplicatArr.banana + 1
+        }
+        else if (arr[i] == "orange"){
+            duplicatArr.orange = duplicatArr.orange + 1
         }
     }
     return duplicatArr
