@@ -1,7 +1,7 @@
 //Find the largest value key
 const obj = { a: 10, b: 50, c: 20 }
 
-function LargestValueKey() {
+function LargestValueKey(obj) {
     let greaterValueKey = "";
     for (let key in obj) {
         if (obj.a > obj.b && obj.a > obj.c) {

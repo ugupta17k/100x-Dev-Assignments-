@@ -7,7 +7,7 @@ const arr = [
   { name: "C", city: "Delhi" }
 ]
 
-function GroupPeople(){
+function GroupPeople(arr){
     let grouped = {
         Delhi :[],
         Mumbai : [],

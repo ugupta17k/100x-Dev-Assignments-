@@ -3,7 +3,7 @@
 
 const obj = { fruits: ["apple", "banana"], veggies: ["carrot", "pea"] }
 
-function FlattenObj(){
+function FlattenObj(obj){
     let flatten = [];
     for(let i = 0; i<obj.fruits.length; i++ ){
         flatten.push(obj.fruits[i])
